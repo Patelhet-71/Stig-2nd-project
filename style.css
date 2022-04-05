@@ -187,10 +187,10 @@ ul,li{
 
 .Product{
     position: absolute;
-    top: 87%;
+    top: 88%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     width: 100%;
     height: 100%;
@@ -233,9 +233,8 @@ ul,li{
 .product-info:hover .product-content{
     border: none;
 }
-.product-info img{
-    /* width: 100%; */
-    /* height: 100%; */
+.product-info:hover .product-name{
+    color: var(--green);
 }
 .product-content{
     display: flex;
